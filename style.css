@@ -1,0 +1,108 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+    background-image: url('bodybg-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header-content {
+    padding-bottom: 50px;
+}
+
+.main-about {
+    color: teal;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+#nav-content li a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.overlay-heading {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.overlay-body {
+    background-color: aliceblue;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid teal;
+    height: 10em;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+}
+
+#factDisplay {
+    color: black;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    text-align: center;
+    width: 20px;
+}
+
+footer {
+    background-color: aliceblue;
+    margin: auto;
+    width: 50%;
+}
+
+#footer-contact {
+    font-size: 20px;
+    color: teal;
+    text-align: center;
+}
